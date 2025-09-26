@@ -11,6 +11,22 @@ NanoSAM is a [Segment Anything (SAM)](https://github.com/facebookresearch/segmen
 > NanoSAM is trained by distilling the [MobileSAM](https://github.com/ChaoningZhang/MobileSAM) image encoder
 > on unlabeled images.  For an introduction to knowledge distillation, we recommend checking out [this tutorial](https://github.com/NVIDIA-AI-IOT/jetson-intro-to-distillation).
 
+## 🐳 Docker
+
+You can run NanoSAM using Docker. Follow these steps:
+
+1. **Build the Docker image**:  
+   Run the `build.sh` script to build the Docker image.  
+   ```bash
+   ./build.sh
+   
+2. **Create and run the Docker container**:  
+   Use the `first_run.sh` script to create and start the container interactively.  
+   ```bash
+   ./first_run.sh
+
+3. Position yourself in the `/workspace/nanosam` directory and run the basic usage example as explained below.
+
 <a id="usage"></a>
 ## 👍 Usage
 
