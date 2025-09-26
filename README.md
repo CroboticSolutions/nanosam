@@ -13,10 +13,11 @@ NanoSAM is a [Segment Anything (SAM)](https://github.com/facebookresearch/segmen
 
 ## 🐳 Docker
 
-You can run NanoSAM using Docker. Follow these steps:
+You can run NanoSAM using Docker. 
+The provided Docker setup is designed for **PCs with AMD64 architecture** and requires an **NVIDIA GPU with NVIDIA drivers installed**. Follow these steps:
 
 1. **Build the Docker image**:  
-   Run the `build.sh` script to build the Docker image.  
+   Run the `build.sh` script to build the docker image.  
    ```bash
    ./build.sh
    
@@ -25,7 +26,7 @@ You can run NanoSAM using Docker. Follow these steps:
    ```bash
    ./first_run.sh
 
-3. Position yourself in the `/workspace/nanosam` directory and run the basic usage example as explained below.
+3. In the docker container, position yourself in the `/workspace/nanosam` directory and run the basic usage example as explained below (Setup #5).
 
 <a id="usage"></a>
 ## 👍 Usage
